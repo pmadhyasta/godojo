@@ -1,4 +1,4 @@
-package main
+package database
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
-	"github.com/mtesauro/godojo/config"
+	"github.com/pmadhyasta/godojo/config"
 )
 
 func installDB(osTar string, dbTar *config.DBTarget, dCmd *osCmds) {

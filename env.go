@@ -1,4 +1,4 @@
-package main
+package env
 
 import (
 	"crypto/rand"
@@ -7,7 +7,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/mtesauro/godojo/config"
+	"github.com/pmadhyasta/godojo/config"
 )
 
 // Handles the template-based generation of env.prod for DefectDojo's settings.py

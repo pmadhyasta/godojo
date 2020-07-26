@@ -1,4 +1,4 @@
-package main
+package util //main
 
 import (
 	"archive/tar"
@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mtesauro/godojo/config"
+	"github.com/pmadhyasta/godojo/config"
 )
 
 // Untar takes a destination path and a reader; a tar reader loops over the tarfile

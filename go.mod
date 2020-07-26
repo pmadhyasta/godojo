@@ -1,4 +1,4 @@
-module github.com/mtesauro/godojo
+module github.com/pmadhyasta/godojo
 
 go 1.12
 

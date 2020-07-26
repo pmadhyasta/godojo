@@ -1,9 +1,9 @@
-package main
+package os
 
 import (
 	"strconv"
 
-	"github.com/mtesauro/godojo/config"
+	"github.com/pmadhyasta/godojo/config"
 )
 
 // Location for all non-OS specific calls where case statements handle dispacting calls to OS specifc calls

@@ -1,4 +1,4 @@
-package main
+package ubuntu
 
 import (
 	"bufio"
@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mtesauro/godojo/config"
+	"github.com/pmadhyasta/godojo/config"
 )
 
 // Commands to bootstrap Ubuntu for the installer

@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/briandowns/spinner"
-	"github.com/mtesauro/godojo/config"
+	"github.com/pmadhyasta/godojo/config"
 	"github.com/spf13/viper"
 	git "gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
