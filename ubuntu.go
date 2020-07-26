@@ -1,4 +1,4 @@
-package ubuntu
+package main
 
 import (
 	"bufio"

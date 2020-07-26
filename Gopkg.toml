@@ -38,10 +38,6 @@
   version = "1.7.1"
 
 [[constraint]]
-  name = "github.com/mtesauro/godojo"
-  version = "0.1.1"
-
-[[constraint]]
   name = "github.com/spf13/viper"
   version = "1.7.0"
 

@@ -15,8 +15,9 @@ import (
 // if there are errors reading the file or unmarshialling into a struct
 func readConfigFile() {
 	// Setup viper config
-	viper.AddConfigPath(".")
 	viper.SetConfigName("dojoConfig")
+	viper.AddConfigPath(".")
+	viper.SetConfigType("yml")
 
 	// Setup ENV variables
 	// TODO: Do these manually in readEnvVars() since they have odd names for Viper auto-magic

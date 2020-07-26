@@ -48,7 +48,7 @@ var (
 const (
 	// URLs needed by the installer
 	// TODO: Move most of these into dojoConfig.yml
-	HelpURL    = "https://github.com/mtesauro/godojo"
+	HelpURL    = "https://github.com/pmadhyasta/godojo"
 	ReleaseURL = "https://github.com/DefectDojo/django-DefectDojo/archive/"
 	CloneURL   = "https://github.com/DefectDojo/django-DefectDojo.git"
 	YarnGPG    = "https://dl.yarnpkg.com/debian/pubkey.gpg"
@@ -339,8 +339,8 @@ func main() {
 
 	// Read in any environmental variables
 	readEnvVars()
-	fmt.Println("Debug concluded")
-	os.Exit(0)
+	// fmt.Println("Debug concluded")
+	// os.Exit(0)
 
 	// TODO: Command line Cobra options for
 	// - "show vars" to print supported envivonmental variables
